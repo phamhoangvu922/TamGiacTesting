@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TamGiac\TamGiac.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\NUnit 2.7.1\bin\framework\nunit.framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

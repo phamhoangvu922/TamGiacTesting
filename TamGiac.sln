@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TamGiac", "TamGiac\TamGiac.csproj", "{446AEB0F-E35E-4C68-827D-0F1183EAD9C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TamGiacTest", "TamGiacTest\TamGiacTest.csproj", "{E67B135A-BD22-410E-9F07-14653E988227}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TamGiacTest", "TamGiacTest\TamGiacTest.csproj", "{E67B135A-BD22-410E-9F07-14653E988227}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC889ABA-A426-4F0A-B324-0FAB79E969BC}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2,4 +2,4 @@ language: csharp
 solution: TamGiac.sln
 script:
 – xbuild /p:Configuration=Release TamGiac.sln
-– mono ./testrunner/NUnit.Runners.2.7.1/tools/nunit-console.exe  ./TamGiacTest/bin/Release/TamGiacTest.dll
+– mono ./testrunner/NUnit.Runners.2.7.1/tools/nunit-console.exe  ./TamGiacTest/bin/Debug/netstandard2.0/TamGiacTest.dll

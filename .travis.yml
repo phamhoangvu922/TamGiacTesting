@@ -2,7 +2,7 @@ language: csharp
 solution: TamGiac.sln
 install:
   - sudo apt-get install nunit-console
-  - nuget TamGiac.sln
+  - nuget restore TamGiac.sln
 script:
 – xbuild TamGiac.sln
 – nunit-console  ./TamGiacTest/bin/Debug/netstandard2.0/TamGiacTest.dll

@@ -1,7 +1,8 @@
 language: csharp
 solution: TamGiac.sln
-before_install:
+install:
   - sudo apt-get install nunit-console
+  - nuget TamGiac.sln
 script:
-after_script:
+– xbuild TamGiac.sln
 – nunit-console  ./TamGiacTest/bin/Debug/netstandard2.0/TamGiacTest.dll

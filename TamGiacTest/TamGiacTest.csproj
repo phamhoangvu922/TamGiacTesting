@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <Reference Include="nunit.framework">
-      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\NUnit 2.7.1\bin\framework\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\NUnit.2.7.1\lib\nunit.framework.dll</HintPath>
     </Reference>
   </ItemGroup>
 

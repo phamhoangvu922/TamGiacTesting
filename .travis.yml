@@ -1,8 +1,8 @@
 language: csharp
 solution: TamGiac.sln
 install:
-  - sudo apt-get install nunit-console
   - nuget restore TamGiac.sln
+  - nuget install NUnit.Console -Version 2.7.1 -OutputDirectory testrunner
 script:
-– xbuild TamGiac.sln
-– nunit-console  ./TamGiacTest/bin/Debug/netstandard2.0/TamGiacTest.dll
+– msbuild /p:Configuration=Debug TamGiac.sln
+– mono ./testrunner/NUnit.ConsoleRunner.2.7.1/tools/nunit-console.exe  ./TamGiacTest/bin/Debug/netstandard2.0/TamGiacTest.dll

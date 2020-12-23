@@ -11,14 +11,14 @@ namespace TamGiac.Test
         [Test]
         public void ConstructerDiemTest()
         {
-            Diem diem = new Diem();
+            TamGiac.Diem diem = new TamGiac.Diem();
             Assert.AreEqual(0, diem.X, "X khong chinh xac");
             Assert.AreEqual(0, diem.Y, "Y khong chinh xac");
         }
         [Test]
         public void ToStringDiemTest()
         {
-            Diem diem = new Diem(0, 2f);
+            TamGiac.Diem diem = new TamGiac.Diem(0, 2f);
             String test = diem.ToString();
             Assert.AreEqual("0,2", test, "toString khong chinh xac");
         }

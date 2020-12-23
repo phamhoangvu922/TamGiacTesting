@@ -3,10 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
   </PropertyGroup>
-  
-  <ItemGroup>
-    <Reference Include="netstandard" />
-  </ItemGroup>
+ 
   
   <ItemGroup>
     <Reference Include="nunit.framework">
@@ -16,8 +13,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TamGiac\TamGiac.csproj">
-      <Project>{446AEB0F-E35E-4C68-827D-0F1183EAD9C9}</Project>
-      <Name>TamGiac</Name>
     </ProjectReference>
   </ItemGroup>
 

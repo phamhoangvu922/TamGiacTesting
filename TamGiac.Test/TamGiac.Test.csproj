@@ -13,7 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\TamGiac\TamGiac.csproj">
       <Project>{446AEB0F-E35E-4C68-827D-0F1183EAD9C9}</Project>
-      <Name>TravisSample</Name>
+      <Name>TamGiac</Name>
     </ProjectReference>
   </ItemGroup>
 

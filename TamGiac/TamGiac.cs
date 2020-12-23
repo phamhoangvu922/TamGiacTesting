@@ -33,7 +33,7 @@ namespace TamGiac
          * Ham khoi tao khong tham so
          * Dinh A,B,C deu co toa do 0,0
          */
-        public TamGiac()
+        public TamGiacObj()
         {
             _a = new Diem(0, 0);
             _b = new Diem(0, 0);
@@ -44,7 +44,7 @@ namespace TamGiac
          * Ham khoi tao 3 tham so Diem
          * Dinh A,B,C bang 3 tham so
          */
-        public TamGiac(Diem a, Diem b, Diem c)
+        public TamGiacObj(Diem a, Diem b, Diem c)
         {
             _a = a;
             _b = b;

@@ -77,7 +77,7 @@ namespace TamGiac
             double AC = _a.KhoangCach(_c);
             double BC = _b.KhoangCach(_c);
             if ((AB + AC == BC) || (AB + BC == AC) || (AC + BC == AB)) return -1;
-            if (AB==AC && AB==BC) return 1;
+            if (AB == AC && AB == BC) return 1;
             if (AB == AC || AB == BC) return 2;
 
             return 0;

@@ -23,7 +23,7 @@ namespace TamGiac
 
         private void buttonChuVi_Click(object sender, EventArgs e)
         {
-            TamGiac tg = new TamGiac();
+            TamGiacObj tg = new TamGiacObj();
             tg.A.X = int.Parse(textBoxAx.Text);
             tg.A.Y = int.Parse(textBoxAy.Text);
             tg.B.X = int.Parse(textBoxBx.Text);
@@ -36,7 +36,7 @@ namespace TamGiac
 
         private void buttonLoaiTamGiac_Click(object sender, EventArgs e)
         {
-            TamGiac tg = new TamGiac();
+            TamGiacObj tg = new TamGiacObj();
             tg.A.X = int.Parse(textBoxAx.Text);
             tg.A.Y = int.Parse(textBoxAy.Text);
             tg.B.X = int.Parse(textBoxBx.Text);

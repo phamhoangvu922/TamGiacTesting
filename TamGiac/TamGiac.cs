@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TamGiac
 {
-    public class TamGiac
+    public class TamGiacObj
     {
         private Diem _a;
 

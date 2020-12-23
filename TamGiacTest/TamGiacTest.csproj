@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="TamGiac.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\TamGiac\TamGiac.csproj">
       <Project>{446aeb0f-e35e-4c68-827d-0f1183ead9c9}</Project>
       <Name>TamGiac</Name>

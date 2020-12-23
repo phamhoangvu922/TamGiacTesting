@@ -4,5 +4,5 @@ install:
   - nuget restore TamGiac.sln
   - nuget install NUnit.Console -Version 3.9.0 -OutputDirectory testrunner
 script:
-  - xbuild /p:Configuration=Debug TamGiac.sln
-  - mono ./testrunner/NUnit.ConsoleRunner.3.9.0/tools/nunit3-console.exe  ./TamGiac.Test/bin/Debug/netstandard2.0/TamGiac.Test.dll
+  - msbuild /p:Configuration=Debug TamGiac.sln
+  - mono ./testrunner/NUnit.ConsoleRunner.3.9.0/tools/nunit3-console.exe  ./TamGiac.Test/bin/Debug/TamGiac.Test.dll

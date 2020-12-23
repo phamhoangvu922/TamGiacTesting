@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using System.Text;
 using NUnit.Framework;
 
-namespace TamGiacTest
+
+namespace TamGiac.Test
 {
     [TestFixture]
-    public class TamGiacTest
+    class TamGiacTest
     {
         [Test]
         public void ConstructerTamGiacTest()
         {
-            TamGiac.TamGiac tamGiac = new TamGiac.TamGiac();
+            TamGiac tamGiac = new TamGiac();
 
             Assert.AreEqual(0, tamGiac.A.X, "Gia tri X cua diem A khong chinh xac");
             Assert.AreEqual(0, tamGiac.A.Y, "Gia tri Y cua diem A khong chinh xac");

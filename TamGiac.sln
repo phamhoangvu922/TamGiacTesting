@@ -5,12 +5,12 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TamGiac", "TamGiac\TamGiac.csproj", "{446AEB0F-E35E-4C68-827D-0F1183EAD9C9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TamGiacTest", "TamGiacTest\TamGiacTest.csproj", "{E67B135A-BD22-410E-9F07-14653E988227}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC889ABA-A426-4F0A-B324-0FAB79E969BC}"
 	ProjectSection(SolutionItems) = preProject
 		.travis.yml = .travis.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TamGiac.Test", "TamGiac.Test\TamGiac.Test.csproj", "{2DFBEA11-62CA-453E-9E35-32C22F4379CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,14 +26,14 @@ Global
 		{446AEB0F-E35E-4C68-827D-0F1183EAD9C9}.Release|Any CPU.ActiveCfg = Release|x86
 		{446AEB0F-E35E-4C68-827D-0F1183EAD9C9}.Release|x86.ActiveCfg = Release|x86
 		{446AEB0F-E35E-4C68-827D-0F1183EAD9C9}.Release|x86.Build.0 = Release|x86
-		{E67B135A-BD22-410E-9F07-14653E988227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E67B135A-BD22-410E-9F07-14653E988227}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E67B135A-BD22-410E-9F07-14653E988227}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{E67B135A-BD22-410E-9F07-14653E988227}.Debug|x86.Build.0 = Debug|Any CPU
-		{E67B135A-BD22-410E-9F07-14653E988227}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E67B135A-BD22-410E-9F07-14653E988227}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E67B135A-BD22-410E-9F07-14653E988227}.Release|x86.ActiveCfg = Release|Any CPU
-		{E67B135A-BD22-410E-9F07-14653E988227}.Release|x86.Build.0 = Release|Any CPU
+		{2DFBEA11-62CA-453E-9E35-32C22F4379CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DFBEA11-62CA-453E-9E35-32C22F4379CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DFBEA11-62CA-453E-9E35-32C22F4379CD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2DFBEA11-62CA-453E-9E35-32C22F4379CD}.Debug|x86.Build.0 = Debug|Any CPU
+		{2DFBEA11-62CA-453E-9E35-32C22F4379CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DFBEA11-62CA-453E-9E35-32C22F4379CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DFBEA11-62CA-453E-9E35-32C22F4379CD}.Release|x86.ActiveCfg = Release|Any CPU
+		{2DFBEA11-62CA-453E-9E35-32C22F4379CD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

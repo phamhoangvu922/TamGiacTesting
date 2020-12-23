@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TamGiacTest")]
+[assembly: AssemblyTitle("TamGiac.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TamGiacTest")]
+[assembly: AssemblyProduct("TamGiac.Test")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("95ae5cef-8c8e-426d-83ae-64ea136f1100")]
+[assembly: Guid("33882596-95ab-43a9-a690-fdbf3cd4b415")]
 
 // Version information for an assembly consists of the following four values:
 //

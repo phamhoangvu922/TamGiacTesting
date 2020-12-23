@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{95AE5CEF-8C8E-426D-83AE-64EA136F1100}</ProjectGuid>
+    <ProjectGuid>{33882596-95AB-43A9-A690-FDBF3CD4B415}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TamGiacTest</RootNamespace>
-    <AssemblyName>TamGiacTest</AssemblyName>
+    <RootNamespace>TamGiac.Test</RootNamespace>
+    <AssemblyName>TamGiac.Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

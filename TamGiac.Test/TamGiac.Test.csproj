@@ -53,5 +53,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TamGiacTest.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TamGiac\TamGiac.csproj">
+      <Project>{446aeb0f-e35e-4c68-827d-0f1183ead9c9}</Project>
+      <Name>TamGiac</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
